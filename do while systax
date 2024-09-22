@@ -1,0 +1,10 @@
+class dha {
+    public static void main(String[] args) {
+    int dha=0;
+    do{
+        System.out.println("dhanush");
+        dha=dha+1;
+    }while(dha<=1);
+    
+    }
+}
