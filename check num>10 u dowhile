@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class dha {
+    public static void main(String[] args) {
+    Scanner scan=new Scanner(System.in);
+    int number;
+    do{
+        System.out.println("Enter the num < 10: ");
+        number=scan.nextInt();
+    }while(number > 11); 
+    
+    }
+}
