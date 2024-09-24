@@ -1,0 +1,17 @@
+public class Hotel{
+    int egg=10;
+    int grill=30;
+    int rice=40;
+    
+    public static void main(String [] args)
+    {
+      Hotel app1=new Hotel();
+      System.out.println(app1.egg);
+      
+      //Hotel app1=new Hotel();
+      System.out.println(app1.grill);
+      
+     // Hotel app1=new Hotel();
+      System.out.println(app1.rice);
+    }
+}
