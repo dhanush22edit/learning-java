@@ -1,0 +1,16 @@
+public class Addition{
+    int a=10;
+    int b=20;
+    
+    void add()
+    {
+      int tot;
+      tot=a+b;
+      System.out.print(tot);
+    }
+    
+    public static void main(String[] args) {
+         Addition obj2=new Addition();
+         obj2.add();
+    }
+}
