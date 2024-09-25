@@ -1,0 +1,30 @@
+public class Calculate {
+    void add(int num1,int num2)
+    {
+        System.out.print("Addition: ");
+        System.out.println(num1+num2);
+    }
+    void sub(int num1,int num2)
+    {
+        System.out.print("Substraction: ");
+        System.out.println(num1-num2);
+    }
+    void mul(int num1,int num2)
+    {
+        System.out.print("Multiplication: ");
+        System.out.println(num1*num2);
+    }
+    void div(int num1,int num2)
+    {
+        System.out.print("Divition: ");
+        System.out.println(num1/num2);
+    }
+    public static void main(String[] args) {
+        Calculate obj1=new Calculate();
+        obj1.add(20,2);
+        obj1.sub(20,2);
+        obj1.mul(20,2);
+        obj1.div(20,2);
+        
+    }
+}
