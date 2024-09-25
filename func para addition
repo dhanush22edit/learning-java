@@ -1,0 +1,12 @@
+public class Store {
+    void chocolate(int money1,int money2)
+    {
+        System.out.println(money1+money2);
+        System.out.println("dhanush rocked");
+    }
+    public static void main(String[] args) {
+        Store obj1=new Store();
+        obj1.chocolate(20,10);
+        
+    }
+}
