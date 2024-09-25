@@ -1,0 +1,21 @@
+public class Demo {
+    void ipho()
+    {
+      System.out.println("iphone");  
+    }
+    void sam()
+    {
+      System.out.println("samsung");  
+    }
+    void vivo()
+    {
+      System.out.println("vivo");  
+    }
+    public static void main(String[] args) {
+         Demo obj1=new Demo();
+         obj1.ipho();
+         obj1.sam();
+         obj1.vivo();
+        
+    }
+}
