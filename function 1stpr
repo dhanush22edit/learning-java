@@ -1,0 +1,11 @@
+public class Demo {
+    void birth()
+    {
+      System.out.println("happy birth day facts buddy");  
+    }
+    public static void main(String[] args) {
+         Demo obj1=new Demo();
+         obj1.birth();
+        
+    }
+}
