@@ -1,0 +1,17 @@
+public class Store {
+    void chocolate(int money1)
+    {
+        System.out.println(money1);
+        System.out.println("choclolate purchased");
+    }
+     void juice(int money2)
+    {
+        System.out.println(money2);
+        System.out.println("juice purchased");
+    }
+    public static void main(String[] args) {
+        Store obj1=new Store();
+        obj1.chocolate(20);
+        obj1.juice(10);
+    }
+}
