@@ -1,0 +1,13 @@
+class HelloWorld {
+    String sum(String b)
+    {
+        
+        return b;
+    }
+    public static void main(String[] args) {
+        HelloWorld obj1=new HelloWorld();
+        String b="dhanush";
+        String rem=obj1.sum(b);
+        System.out.println(rem);
+    }
+}
