@@ -1,0 +1,19 @@
+import java.util.*;
+class Find {
+    void sum(int a)
+    {
+        if(a%2==0){
+            System.out.println("Even");
+        }
+        else{
+           System.out.println("Odd"); 
+        }
+    }
+    public static void main(String[] args) {
+        Find obj1=new Find();
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        obj1.sum(a);
+        //System.out.println(not);
+    }
+}
