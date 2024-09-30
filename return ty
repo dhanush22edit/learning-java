@@ -1,0 +1,14 @@
+class HelloWorld {
+    int sum(int a,int b)
+    {
+        int tot = a+b;
+        return tot;
+    }
+    public static void main(String[] args) {
+        HelloWorld obj1=new HelloWorld();
+        int a=4;
+        int b=6;
+        int rem=obj1.sum(3,4);
+        System.out.println(rem);
+    }
+}
