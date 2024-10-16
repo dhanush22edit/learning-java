@@ -1,0 +1,49 @@
+import java.util.*;
+class Hello {
+    static int orange(int a) {
+        int oran = 30;
+        int sum = oran * a;
+        return sum;
+    }
+
+    static int banana(int b) {
+        int ban = 40;
+        int sum2 = ban * b;
+        return sum2;
+    }
+
+    static int apple(int c) {
+        int app = 50;
+        int sum3 = app * c;
+        return sum3;
+    }
+
+    public static void main(String[] args) {
+       
+        Scanner scan=new Scanner(System.in);
+        String [] fru={"orange","banana","apple","discount"};
+        int [] qu=new int[fru.length];
+       
+        for(int i=0;i<fru.length;i++){
+           System.out.println("Enter how many "+fru[i]+" :");
+           qu[i]=scan.nextInt();
+        }
+        int x=qu[0];
+        int y=qu[1];
+        int z=qu[2];
+        int d=qu[3];
+        System.out.println("Orange: " + orange(x)); 
+        System.out.println("Banana: " + banana(y));
+        System.out.println("Apple: " + apple(z));
+        int tot=orange(x)+banana(y)+apple(z)-d;
+        System.out.println("Total Bill: "+tot);
+    }
+}
+
+
+
+
+
+
+
+
